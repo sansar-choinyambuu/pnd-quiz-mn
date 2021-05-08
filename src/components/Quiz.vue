@@ -136,23 +136,24 @@
             >
           </div>
           <!--/resultTitleBlock-->
+          <div class="source">
+            <p>
+              Эх сурвалж 1: Cox, J.L., Holden, J.M., and Sagovsky, R. 1987.
+              Detection of postnatal depression: Development of the 10-item
+              Edinburgh Postnatal Depression Scale. British Journal of
+              Psychiatry 150:782-786 .
+            </p>
+            <p>
+              Эх сурвалж 2: K. L. Wisner, B. L. Parry, C. M. Piontek, Postpartum
+              Depression N Engl J Med vol. 347, No 3, July 18, 2002, 194-199
+            </p>
+          </div>
         </div>
         <!--/quizCompetedResult-->
       </transition-group>
     </div>
     <!--/questionBox-->
   </section>
-  <div class="source">
-    <p>
-      Эх сурвалж 1: Cox, J.L., Holden, J.M., and Sagovsky, R. 1987. Detection of
-      postnatal depression: Development of the 10-item Edinburgh Postnatal
-      Depression Scale. British Journal of Psychiatry 150:782-786 .
-    </p>
-    <p>
-      Эх сурвалж 2: K. L. Wisner, B. L. Parry, C. M. Piontek, Postpartum
-      Depression N Engl J Med vol. 347, No 3, July 18, 2002, 194-199
-    </p>
-  </div>
   <!--/container-->
 </template>
 
@@ -534,7 +535,7 @@ body {
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 320px) {
   .questionBox {
     align-items: center;
     justify-content: center;
