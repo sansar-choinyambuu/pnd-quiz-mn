@@ -1,4 +1,11 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import VueAnalytics from 'vue-analytics';
 
-createApp(App).mount('#app')
+const app = createApp(App)
+app.mount('#app')
+
+// Configuration VueAnalytics
+app.use(VueAnalytics, {
+    id: '271704221'
+  });

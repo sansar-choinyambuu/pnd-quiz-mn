@@ -274,6 +274,10 @@ export default {
     };
   },
 
+  mounted() {
+    this.$ga.page('/');
+  },
+
   methods: {
     charIndex: function (i) {
       return String.fromCharCode(97 + i);
@@ -309,6 +313,7 @@ export default {
     },
   },
 };
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
