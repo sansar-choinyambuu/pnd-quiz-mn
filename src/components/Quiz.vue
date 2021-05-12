@@ -274,10 +274,6 @@ export default {
     };
   },
 
-  mounted() {
-    this.$ga.page('/');
-  },
-
   methods: {
     charIndex: function (i) {
       return String.fromCharCode(97 + i);
